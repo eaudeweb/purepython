@@ -5,3 +5,6 @@ defaults:
     values:
       layout: "wiki"
 
+markdown:   kramdown
+kramdown:
+  input: GFM
