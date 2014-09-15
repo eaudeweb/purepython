@@ -1618,7 +1618,7 @@ section h2 {
 #programme .week:before {
   display: block;
   counter-increment: h4;
-  content: "Săptămâna " counter(h4);
+  content: "Week " counter(h4);
   color: gray;
   text-align: center;
 }
