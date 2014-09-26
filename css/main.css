@@ -1618,7 +1618,7 @@ section h2 {
 #programme .week:before {
   display: block;
   counter-increment: h4;
-  content: "Week " counter(h4);
+  content: "Săptămâna " counter(h4);
   color: gray;
   text-align: center;
 }
@@ -1762,22 +1762,24 @@ section h2 {
   color: #ffda00;
 }
 
-.logo-edw,
-.logo-unibuc {
+.logos {
+  float: right;
+}
+.logos > a {
   display: block;
+  float: left;
+  margin-left: 1rem;
   font-size: smaller;
   line-height: 2;
   color: gray;
   text-align: center;
 }
-.logo-edw .img,
-.logo-unibuc .img {
+.logos > a .img {
   width: 60px;
   margin-left: auto;
   margin-right: auto;
 }
-.logo-edw:hover,
-.logo-unibuc:hover {
+.logos > a:hover {
   text-decoration: none;
 }
 
