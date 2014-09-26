@@ -1113,7 +1113,7 @@ html {
 
 body {
   height: 100%;
-  font-family: "Clear sans" sans-serif;
+  font-family: "Clear sans", sans-serif;
   line-height: 1.4;
   color: #444444;
   text-rendering: optimizeLegibility;
@@ -1618,7 +1618,7 @@ section h2 {
 #programme .week:before {
   display: block;
   counter-increment: h4;
-  content: "Săptămâna " counter(h4);
+  content: "S\0103pt\0103m\00E2na " counter(h4);
   color: gray;
   text-align: center;
 }
