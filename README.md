@@ -1,6 +1,12 @@
 
 ## Update wiki content
 
+First (one time only):
+
+    cd wiki
+    git submodule init
+    git pull
+    
 To update the public site with content from this wiki, run:
 
     cd wiki
