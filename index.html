@@ -12,55 +12,52 @@
     
     <section id="home">
       <div class="container">
-        <h1>PurePython 2014</h1>
-        <p class="tablet-6 h4 subtitle">Curs de introducere în Web Development folosind Python și Django</p>
-
-
-        <div class="">
-          <dl class="sumar tablet-6">
-            <dt><i class="fa fa-star"></i> Primul curs</dt>
-            <dd>14 Octombrie 2014</dd>
-            <dt><i class="fa fa-calendar-o"></i> Orar</dt>
-            <dd>2 ore în fiecare Marți de la 8 AM timp de 9 + 1 săptămâni</dd>
-            <dt><i class="fa fa-map-marker"></i> Locație</dt>
-            <dd>Universitatea din București, Facultatea de Matematică și Informatică <br/>
-              Etaj 2 - Sala 204
-              <a class="small" href="#locatie">Vezi pe hartă</a></dd>
-            <dt><i class="fa fa-user"></i> Locuri</dt>
-            <dd>30 de studenți</dd>
-          </dl>
-          <div class="tablet-6">
-            <div class="inscrieri">
-              <h3 class="h5 uppercase">Înscrieri</h2>
-
-              <p>Perioada înscrierilor s-a încheiat.</p>
-            </div>
-          </div>
-
-        </div>
-
         <div class="background-img img">
           <img src="img/python.png">
         </div>
 
+        <h1 class="title">PurePython 2014</h1>
+        <p class="h4 subtitle">Curs de introducere în Web&nbsp;Development folosind <span class="no-br">Python și Django</span></p>
+
+        <div class="event-info">
+          <dl class="summary">
+            <dt><i class="fa fa-star"></i> Primul curs</dt>
+            <dd>14 Octombrie 2014</dd>
+            <dt><i class="fa fa-calendar-o"></i> Orar</dt>
+            <dd>2 ore în fiecare Marți de la 8 AM timp de <span class="no-br">9 + 1 săptămâni</span></dd>
+            <dt><i class="fa fa-map-marker"></i> Locație</dt>
+            <dd>
+              <span class="no-br">Universitatea din București</span>, 
+              <span class="no-br">Facultatea de Matematică și Informatică</span>,
+              <span class="no-br">Etaj 2 - Sala 204</span>
+              <a class="small" href="#locatie">Vezi&nbsp;pe&nbsp;hartă</a></dd>
+            <dt><i class="fa fa-user"></i> Locuri</dt>
+            <dd>30 de studenți</dd>
+          </dl>
+          <div class="register">
+            <h3 class="h5 uppercase">Înscrieri</h2>
+            <p>Perioada înscrierilor s-a încheiat.</p>
+          </div>
+        </div>
       </div>
+
     </section>
     
     
 
     <section id="descriere">
       <div class="container">
-        <h2>Descriere</h2>
+        <h2 class="section-title">Descriere</h2>
         <div class="row">
-          <section class="description tablet-6">
-            <h3 class="h4">Formatul cursului</h3>
+          <div class="col description">
+            <h3 class="heading">Formatul cursului</h3>
             <p>Un curs începe cu o prezentare de 20-40 de minute, urmată de aplicații practice, hands on. După fiecare curs, studenții primesc o temă pentru acasă.</p>
             <p>De la cursul 5 începem un proiect (o clonă de Facebook) la care lucrăm incremental în cursurile următoare. Nu facem echipe, nu versionăm cod, ci avem de fiecare dată la începutul cursului codul din cursurile anterioare ca referință.</p>
             <p>La finalul cursului, absolvenții primesc o diplomă <em>Eau de Web</em> de finalizare.</p>
-          </section>
+          </div>
 
-          <section class="knowledge tablet-6 desktop-5 desktop-offset-1">
-            <h3 class="h4">Cunoștințe dobândite</h3>
+          <div class="col knowledge">
+            <h3 class="heading">Cunoștințe dobândite</h3>
             <ul>
               <li>
                 <strong><i class="fa fa-check"></i> Python</strong>
@@ -80,7 +77,7 @@
                 <a href="http://getbootstrap.com"></a>Bootstrap,
                 <abbr title="Javascript">JS</abbr> </li>
             </ul>
-          </section>
+          </div>
         </div>
         
         <!--
@@ -108,13 +105,13 @@
 
     <section id="programa">
       <div class="container">
-        <h2>Programa</h2>
-        <ol id="programme" class="row">
-          <li class="tablet-4">
+        <h2 class="section-title">Programa</h2>
+        <ol class="row schedule">
+          <li class="col">
             <div class="week">
-              <h4 class="h6">Introducere</h4>
+              <h4 class="course-title">Introducere</h4>
               <hr />
-              <ul>
+              <ul class="small">
                 <li>Lucrul cu interpretorul</li>
                 <li>Sintaxa</li>
                 <li>Instrucțiuni și variabile</li>
@@ -125,11 +122,11 @@
               </ul>
             </div>
           </li>
-          <li class="tablet-4">
+          <li class="col">
             <div class="week">
-              <h4 class="h6">Operații de bază</h4>
+              <h4 class="course-title">Operații de bază</h4>
               <hr />
-              <ul>
+              <ul class="small">
                 <li>Funcții built-in</li>
                 <li>i/o</li>
                 <li>File i/o</li>
@@ -137,11 +134,11 @@
               </ul>
             </div>
           </li>
-          <li class="tablet-4">
+          <li class="col">
             <div class="week">
-              <h4 class="h6"><abbr title="Object-oriented programming">OOP</abbr></h4>
+              <h4 class="course-title"><abbr title="Object-oriented programming">OOP</abbr></h4>
               <hr />
-              <ul>
+              <ul class="small">
                 <li>Clase și obiecte</li>
                 <li>Instanțiere</li>
                 <li>Metode și atribute</li>
@@ -150,11 +147,11 @@
               </ul>
             </div>
           </li>
-          <li class="tablet-4">
+          <li class="col">
             <div class="week">
-              <h4 class="h6">Noțiuni specifice Python</h4>
+              <h4 class="course-title">Noțiuni specifice Python</h4>
               <hr />
-              <ul>
+              <ul class="small">
                 <li>List comprehension</li>
                 <li>Nested list comprehension</li>
                 <li>Dictionary, Set comprehension</li>
@@ -163,11 +160,11 @@
               </ul>
             </div>
           </li>
-          <li class="tablet-4">
+          <li class="col">
             <div class="week">
-              <h4 class="h6">Introducere în Django</h4>
+              <h4 class="course-title">Introducere în Django</h4>
               <hr />
-              <ul>
+              <ul class="small">
                 <li>Modele</li>
                 <li>View-uri</li>
                 <li>Template-uri</li>
@@ -175,11 +172,11 @@
               </ul>
             </div>
           </li>
-          <li class="tablet-4">
+          <li class="col">
             <div class="week">
-              <h4 class="h6">Lucrul cu baza de date</h4>
+              <h4 class="course-title">Lucrul cu baza de date</h4>
               <hr />
-              <ul>
+              <ul class="small">
                 <li>Modele</li>
                 <li>Interogarea bazei de date</li>
                 <li>Interfața de administrare</li>
@@ -187,11 +184,11 @@
               </ul>
             </div>
           </li>
-          <li class="tablet-4">
+          <li class="col">
             <div class="week">
-              <h4 class="h6">View-uri și formulare</h4>
+              <h4 class="course-title">View-uri și formulare</h4>
               <hr />
-              <ul>
+              <ul class="small">
                 <li>View-uri, formulare</li>
                 <li>Template-uri</li>
                 <li>Fișiere static</li>
@@ -199,11 +196,11 @@
               </ul>
             </div>
           </li>
-          <li class="tablet-4">
+          <li class="col">
             <div class="week">
-              <h4 class="h6">Django extras</h4>
+              <h4 class="course-title">Django extras</h4>
               <hr />
-              <ul>
+              <ul class="small">
                 <li>Paginare</li>
                 <li>Autentificare</li>
                 <li>Sesiuni</li>
@@ -212,24 +209,23 @@
               </ul>
             </div>
           </li>
-          <li class="tablet-4">
+          <li class="col">
             <div class="week">
-              <h4 class="h6">Frontend</h4>
+              <h4 class="course-title">Frontend</h4>
               <hr />
-              <ul>
+              <ul class="small">
                 <li>CSS</li>
                 <li>Javascript</li>
                 <li>Bootstrap + Django template</li>
               </ul>
             </div>
           </li>
-          <li class="tablet-12">
-            <div class="week">
-              <h4 class="h6">Hackathon</h4>
-              <div class="img pull-right">
+          <li class="col full">
+            <div class="week hackathon">
+              <h4 class="course-title">Hackathon</h4>
+              <div class="img">
                 <img src="img/app.png" alt="">
               </div>
-              <hr />
               <p>Aplicație web de la un capăt la altul.</p>
             </div>
           </li>
@@ -245,7 +241,7 @@
       <div id="map-canvas" data-address="Universitatea din București" style="min-height: 450px;"></div>
       <div class="overlay">
         <div class="container">
-          <h2>Locație</h2>
+          <h2 class="section-title">Locație</h2>
           <address>
             Universitatea din București <br/>
             Facultatea de Matematică și Informatică <br/>
@@ -272,28 +268,28 @@
     <section id="realizatori">
       <div class="container">
         <div class="row">
-          <div class="logos">
-            <a class="logo-edw" href="http://www.eaudeweb.ro/" rel="external" target="_blank">
+          <div class="col logos">
+            <a class="logo edw" href="http://www.eaudeweb.ro/" rel="external" target="_blank">
               <div class="img">
                 <img src="img/logo_edw.png" alt="Eau de Web" title="Eau de Web">
               </div>
               eaudeweb.ro
             </a>
-            <a class="logo-unibuc" href="http://www.unibuc.ro/" rel="external" target="_blank">
+            <a class="logo unibuc" href="http://www.unibuc.ro/" rel="external" target="_blank">
               <div class="img">
                 <img src="img/logo_unibuc.png" alt="Universitatea din București" title="Universitatea din București">
               </div>
               unibuc.ro
             </a>
-            <a class="logo-rosedu" href="http://http://www.rosedu.org/" rel="external" target="_blank">
+            <a class="logo rosedu" href="http://http://www.rosedu.org/" rel="external" target="_blank">
               <div class="img">
                 <img src="img/logo_rosedu.png" alt="ROSEdu" title="ROSEdu">
               </div>
               rosedu.org
             </a>
           </div>
-          <div class="tablet-6 credits">
-            <p>Cursul este realizat de <a class="no-br" href="http://www.eaudeweb.ro/" target="_blank">Eau de Web</a> cu sprijinul <a class="no-br" href="http://www.unibuc.ro/" target="_blank" rel="external">Universității din București</a> și colaborarea <a href="http://www.rosedu.org/">ROSEdu</a>.</p>
+          <div class="col credits">
+            <p>Cursul este realizat de <a class="no-br" href="http://www.eaudeweb.ro/" target="_blank">Eau de Web</a><br/> cu sprijinul <a class="no-br" href="http://www.unibuc.ro/" target="_blank" rel="external">Universității din București</a><br/> și colaborarea <a href="http://www.rosedu.org/">ROSEdu</a>.</p>
             <p class="small">Pentru mai multe informații: <a href="mailto:purepython@eaudeweb.ro">purepython@eaudeweb.ro</a>
             </p>
           </div>
@@ -304,12 +300,12 @@
     <a class="to-top" href="#">La începutul paginii</a>
 
     <!-- modals -->
-    <div id="modal-container">
+    <!-- <div id="modal-container">
       <a data-modal="close">Înapoi</a>
       <div id="formular" class="modal">
         <iframe src="https://docs.google.com/forms/d/1yr7MJXF-p2XNfmTrH3MrH_-w7_5IjssOCvPU_auhDRA/viewform?embedded=true" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
-    </div>
+    </div> -->
 
     <!-- js -->
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
