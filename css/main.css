@@ -416,10 +416,8 @@ section {
   counter-reset: h4;
 }
 .week {
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
+  position: relative;
+  padding: 1rem;
   border: 2px solid #d8d8d8;
   background-color: white;
 }
@@ -428,6 +426,24 @@ section {
   counter-increment: h4;
   content: "S\0103pt\0103m\00E2na " counter(h4);
   color: gray;
+}
+.week.done {
+  border-color: #46C07D;
+  border-width: 1px;
+  background: #64DB96 url('../img/done.png') no-repeat bottom right;
+}
+.week.done,
+.week.done:before {
+  color: #14934D;
+}
+.week.done .course-title {
+  color: inherit;
+}
+.week.done hr {
+  background-color: #46C07D;
+}
+.week.done ul {
+  list-style: disc;
 }
 .hackathon {
   text-align: center!important;
