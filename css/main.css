@@ -391,6 +391,22 @@ section {
   height: 100%;
 }
 
+#echipa {
+	border-top: 1px solid #d8d8d8;
+}
+
+.profile-link {
+  display: block;
+  text-align: center;
+}
+
+.avatar {
+  border-style: solid;
+  border-color: inherit;
+	border-radius: 50%;
+  margin-bottom: .5em;
+}
+
 #programa {
   border-top: 1px solid #d8d8d8;
   background-color: #f2f2f2;
@@ -572,6 +588,19 @@ section {
   .brand {
     display: none!important;
   }
+  .team-member {
+    overflow: auto;
+  }
+  .profile-link {
+    text-align: left;
+    line-height: 48px;
+  }
+  .avatar {
+    width: 48px;
+    float: left;
+    border-width: 2px;
+    margin-right: .5em;
+  }
   #nav-menu .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -610,6 +639,12 @@ section {
   .description,
   .knowledge {
     width: 50%;
+  }
+  .team-member {
+    width: 20%; 
+  }
+  .avatar {
+    border-width: 6px;
   }
   .schedule .col {
     width: 33.333333%;
