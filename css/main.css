@@ -96,6 +96,7 @@ p, .p, address, pre, table, ul, ol, dl {
   margin-bottom: 1rem;
 }
 .subtitle {
+  font-size: 1.5rem;
   color: white;
   font-weight: normal;
   margin-bottom: 4rem;
@@ -193,41 +194,38 @@ abbr, .abbr {
   white-space: nowrap;
 }
 
-#nav-menu {
+.nav-menu {
   background: #0ea053;
-}
-body.modal-open #nav-menu {
-  display: none;
-}
-#nav-menu a {
-  color: white;
-  display: inline-block;
-  padding: .5rem .5rem;
-  margin: 1rem 0;
-  font-size: 1rem;
-  line-height: 1;
-  color: white;
-  border: 1px solid transparent;
-  border-radius: .25rem;
 }
 .nav-links {
   list-style: none;
   padding-left: 0;
   margin: auto -.5rem;
 }
-#nav-menu a:hover {
+.nav-menu a {
+  color: white;
+  display: inline-block;
+  padding: .5rem .5rem;
+  font-size: 1rem;
+  line-height: 1;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.nav-menu a:hover {
   border-color: white;
   text-decoration: none;
 }
-#nav-menu a.brand {
+.nav-menu .brand {
+  float: left;
   margin-left: -.5rem;
   font-weight: bold;
   color: #ffda00;
 }
-#nav-menu a.brand:hover {
+.nav-menu .brand:hover {
   border-color: #ffda00;
 }
-#nav-menu a.nav-cta {
+.nav-menu .nav-cta {
   cursor: pointer;
   position: relative;
   top: -3px;
@@ -239,7 +237,7 @@ body.modal-open #nav-menu {
   background-color: #ffda00 !important;
   box-shadow: 0 3px 0 0 #e6c400;
 }
-#nav-menu a.nav-cta:hover {
+.nav-menu .nav-cta:hover {
   box-shadow: none;
   top: 0;
 }
@@ -290,7 +288,11 @@ a[data-modal="close"]:hover {
   text-decoration: none;
 }
 
-section {
+.nav-menu {
+  padding: 1rem;
+  overflow: hidden;
+}
+.section {
   margin-bottom: -1px;
   padding: 2rem 1rem;
 }
@@ -301,7 +303,8 @@ section {
   padding-top: 7rem;
   padding-bottom: 4rem;
   color: white;
-  background: #0b7a40;
+  background: #0B7A4C;
+  overflow: hidden;
 }
 #home a {
   color: #ffda00;
@@ -343,6 +346,12 @@ section {
 .register h3 {
   color: white;
   margin-bottom: .5rem;
+}
+.register.closed h3 {
+  text-decoration: line-through;
+}
+.register.closed p {
+  font-style: italic;
 }
 
 .cta {
@@ -616,10 +625,6 @@ section {
     float: left;
     border-width: 2px;
     margin-right: .5em;
-  }
-  #nav-menu .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
   .nav-links {
     text-align: center;

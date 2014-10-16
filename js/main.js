@@ -69,10 +69,3 @@ $(document).ready(function () {
 		}
 	});
 });
-
-$(document).ready(function () {
-	$('#nav-menu').scrollToFixed( {
-		bottom: 0,
-		limit: $('#nav-menu').offset().top
-	});
-});
