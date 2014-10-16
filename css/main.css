@@ -195,6 +195,8 @@ abbr, .abbr {
 }
 
 .nav-menu {
+  padding: 1rem;
+  overflow: hidden;
   background: #0ea053;
 }
 .nav-links {
@@ -288,10 +290,6 @@ a[data-modal="close"]:hover {
   text-decoration: none;
 }
 
-.nav-menu {
-  padding: 1rem;
-  overflow: hidden;
-}
 .section {
   margin-bottom: -1px;
   padding: 2rem 1rem;
@@ -301,9 +299,9 @@ a[data-modal="close"]:hover {
   min-height: 100%;
   margin-top: -4rem;
   padding-top: 7rem;
-  padding-bottom: 4rem;
   color: white;
-  background: #0B7A4C;
+  background: #0a5e66;
+  background: linear-gradient(to bottom, #0A664C  0%, #0c8947 100%);
   overflow: hidden;
 }
 #home a {
@@ -589,6 +587,15 @@ a[data-modal="close"]:hover {
   color: white;
 }
 
+@media (max-width: 420px) {
+  .summary dt {
+    margin-bottom: 0;
+    float: none;
+  }
+  .summary dd {
+    margin-left: 2rem;
+  }
+}
 @media (max-width: 767px) {
   .background-img {
     max-width: 320px;
