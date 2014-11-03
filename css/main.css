@@ -625,10 +625,10 @@ a[data-modal="close"]:hover {
   }
   .profile-link {
     text-align: left;
-    line-height: 48px;
+    line-height: 60px;
   }
   .avatar {
-    width: 48px;
+    width: 60px;
     float: left;
     border-width: 2px;
     margin-right: .5em;
@@ -669,10 +669,10 @@ a[data-modal="close"]:hover {
     width: 50%;
   }
   .team-member {
-    width: 20%; 
+    width: 14.28%; 
   }
   .avatar {
-    border-width: 6px;
+    border-width: 3px;
   }
   .schedule .col {
     width: 33.333333%;
