@@ -1,0 +1,16 @@
+table, th,  tr, td {
+    border: 1px solid silver;
+    padding: 10px 10px 10px 10px;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+table tr td:first-child {
+    font-weight: bold;
+}
+
+tr td:first-child, tr td:nth-child(2), tr td:nth-child(3), th {
+    background: #eee;
+}
