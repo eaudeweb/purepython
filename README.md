@@ -1,3 +1,10 @@
+## Website
+
+http://purepython.eaudeweb.ro/
+
+## Course materials
+
+http://purepython.eaudeweb.ro/wiki/Home.html
 
 ## Update wiki content
 
