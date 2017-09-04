@@ -456,6 +456,12 @@ a[data-modal="close"]:hover {
 .week.done ul {
   list-style: disc;
 }
+.week.test {
+  border-color: #e6c400;
+  background: #ffda00;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.25);
+}
+
 .hackathon {
   text-align: center!important;
   margin-bottom: auto;
